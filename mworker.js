@@ -1,3 +1,17 @@
+/**
+ * 移动优选 VLESS 订阅生成器（极简私人版）
+ * 访问：https://你的域名/?token=你的TOKEN
+ * 可选：&n=10  （只返回前10个）
+ * 使用方法
+ * 把上面代码粘贴到 Cloudflare Worker
+ * 只改这几项：
+ * TOKEN
+ * UUID（必须和你实际节点的 UUID 一致）
+ * HOST 和 SNI（你的 pages.dev 或自定义域名）
+ * 部署后访问：https://你的worker.workers.dev/?token=你的TOKEN
+ * 可选参数：
+ * &n=8 → 只返回前 8 个节点
+ */
 const TOKEN = "3pD5LgiPcaj9PkuBVKLnX8wFebm3LCov";                    // ← 必须修改
 
 // ==================== 可配置参数 ====================
