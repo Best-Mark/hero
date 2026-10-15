@@ -1,4 +1,4 @@
-const TOKEN = "你的超级秘密Token";                    // ← 必须修改
+const TOKEN = "3pD5LgiPcaj9PkuBVKLnX8wFebm3LCov";                    // ← 必须修改
 
 // ==================== 可配置参数 ====================
 const UUID = "30701e6a-4628-4613-84ed-7ca3ed0cadbd";  // 你的 UUID
